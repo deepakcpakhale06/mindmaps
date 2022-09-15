@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T05:44:02.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="txGdJskBScW4qY6XbXeU" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T05:50:44.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="P1roXreoNQyXlWkmjnxC" version="20.2.3" type="github">
   <diagram id="p7Yx6SKq140OhYaxNJ3j" name="Page-1">
     <mxGraphModel dx="868" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,57 +7,114 @@
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-1" target="hQFpgfugJIjpB1pTZ4c0-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-28" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="hQFpgfugJIjpB1pTZ4c0-16">
+          <mxGeometry x="-0.2333" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-1" target="hQFpgfugJIjpB1pTZ4c0-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hQFpgfugJIjpB1pTZ4c0-1" value="Have you decided primary compute platform for a workload ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-27" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="hQFpgfugJIjpB1pTZ4c0-19">
+          <mxGeometry x="-0.6458" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-1" value="Have you decided primary compute platform for a workloads ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-3" target="hQFpgfugJIjpB1pTZ4c0-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hQFpgfugJIjpB1pTZ4c0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-3" target="hQFpgfugJIjpB1pTZ4c0-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-26" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="hQFpgfugJIjpB1pTZ4c0-4">
+          <mxGeometry x="-0.025" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-3" target="hQFpgfugJIjpB1pTZ4c0-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="210" />
+              <mxPoint x="440" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-25" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="hQFpgfugJIjpB1pTZ4c0-6">
+          <mxGeometry x="-0.1059" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-3" value="Do you want to run machine learning workload ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hQFpgfugJIjpB1pTZ4c0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-5" target="hQFpgfugJIjpB1pTZ4c0-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hQFpgfugJIjpB1pTZ4c0-5" value="Are you ready for 1 to 3 years commitment ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-8" value="Amazon SageMaker Savings Plans" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="260" width="90" height="80" as="geometry" />
+          <mxGeometry x="395" y="250" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-10" target="hQFpgfugJIjpB1pTZ4c0-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hQFpgfugJIjpB1pTZ4c0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-10">
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-34" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="hQFpgfugJIjpB1pTZ4c0-18">
+          <mxGeometry x="-0.3" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="350" as="targetPoint" />
+            <mxPoint x="330" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-36" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="hQFpgfugJIjpB1pTZ4c0-35">
+          <mxGeometry x="-0.0222" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-10" value="Are you going to use single instance family for all your workloads ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-12" value="&lt;span style=&quot;box-sizing: border-box; font-family: AmazonEmberBold, &amp;quot;Helvetica Neue Bold&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; color: rgb(35, 47, 62); text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;EC2 Instance Savings Plans&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="135" y="410" width="90" height="80" as="geometry" />
+          <mxGeometry x="135" y="530" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-14" value="&lt;span style=&quot;box-sizing: border-box; font-family: AmazonEmberBold, &amp;quot;Helvetica Neue Bold&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; color: rgb(35, 47, 62); text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Compute Savings Plans&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="280" y="410" width="95" height="80" as="geometry" />
+          <mxGeometry x="280" y="530" width="95" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-15" target="hQFpgfugJIjpB1pTZ4c0-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-33" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="hQFpgfugJIjpB1pTZ4c0-17">
+          <mxGeometry x="0.38" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="260" as="targetPoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-32" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="hQFpgfugJIjpB1pTZ4c0-20">
+          <mxGeometry x="0.0222" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hQFpgfugJIjpB1pTZ4c0-15" value="Is your chosen compute platform EC2?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-23" target="hQFpgfugJIjpB1pTZ4c0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-31" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="hQFpgfugJIjpB1pTZ4c0-24">
+          <mxGeometry x="-0.1167" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-30" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="hQFpgfugJIjpB1pTZ4c0-23" target="hQFpgfugJIjpB1pTZ4c0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-23" value="Are you ready for 1 to 3 years commitment ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQFpgfugJIjpB1pTZ4c0-29" value="DO NOT BUY SAVINGS PLAN" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/stop-circle-128.png;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="485" y="15" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
